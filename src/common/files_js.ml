@@ -18,6 +18,7 @@ let global_file_name = "(global)"
 let flow_extensions = [
     ".js"  ;      (* Standard JavaScript files *)
     ".jsx" ;      (* JavaScript files with JSX *)
+    "._js" ;      (* streamline.js *)
   ]
 
 let is_directory path = try Sys.is_directory path with Sys_error _ -> false
